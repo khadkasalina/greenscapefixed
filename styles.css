@@ -776,4 +776,102 @@
       font-size: 20px;
     }
   }
-  
+
+/* Existing CSS... */
+
+/* Styling for the hero section */
+.hero {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #006400; /* Changed text color */
+  background-color: #FFFFFF; /* Changed background color */
+}
+
+.hero p {
+  font-size: 18px;
+  color: #FFFFFF; /* Changed text color */
+  background-color: #006400; /* Changed background color */
+}
+
+/* Styling for the Learn More button */
+.learn-more-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #006400; /* Changed background color */
+  color: #FFFFFF; /* Changed text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.learn-more-btn:hover {
+  background-color: #004d00; /* Darkened background color on hover */
+}
+
+/* Styling for the action section */
+.action-section .action-info h2,
+.action-section .action-info p {
+  color: #006400; /* Changed text color */
+}
+
+.action-section .find-out-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #006400; /* Changed background color */
+  color: #FFFFFF; /* Changed text color */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.action-section .find-out-btn:hover {
+  background-color: #004d00; /* Darkened background color on hover */
+}
+
+/* Styling for the newsletter section */
+.newsletter-section h2 {
+  color: #006400; /* Changed text color */
+}
+
+.newsletter-section p {
+  color: #333333; /* Changed text color */
+}
+
+.subscribe-form input[type="email"],
+.subscribe-form button {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  color: #333333; /* Changed text color */
+}
+
+.subscribe-form button {
+  background-color: #006400; /* Changed background color */
+  color: #FFFFFF; /* Changed text color */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.subscribe-form button:hover {
+  background-color: #004d00; /* Darkened background color on hover */
+}
+
+/* Existing CSS... */
+
