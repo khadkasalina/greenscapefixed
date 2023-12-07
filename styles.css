@@ -873,5 +873,20 @@
   background-color: #004d00; /* Darkened background color on hover */
 }
 
-/* Existing CSS... */
+/* Styling for the action button */
+.action-btn {
+  padding: 10px 20px;
+  background-color: #228B22;
+  color: #FFFFFF; /* Changed text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.action-btn:hover {
+  background-color: #006400; /* Darkened background color on hover */
+}
+
 
