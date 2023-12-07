@@ -873,11 +873,10 @@
   background-color: #004d00; /* Darkened background color on hover */
 }
 
-/* Styling for the action button */
 .action-btn {
   padding: 10px 20px;
-  background-color: #228B22;
-  color: #FFFFFF; /* Changed text color */
+  background-color: #228B22; /* Background color */
+  color: #FFFFFF; /* Text color */
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -886,8 +885,9 @@
 }
 
 .action-btn:hover {
-  background-color: #006400; /* Darkened background color on hover */
+  background-color: #006400; /* Darker background color on hover */
 }
+
 
 .sr-only {
   position: absolute;
@@ -898,5 +898,7 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  color: #000; /* Text color for visually hidden text */
+  background-color: #fff; /* Background color for visually hidden text */
 }
 
